@@ -1,0 +1,7 @@
+php artisan db:seed --class=UserSeeder
+php artisan db:seed --class=SurveySeeder
+php artisan db:seed --class=QuestionSeeder
+php artisan db:seed --class=AnswerSeeder
+php artisan make:model
+php artisan migrate
+
